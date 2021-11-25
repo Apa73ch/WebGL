@@ -19,13 +19,18 @@
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
+      </div>
+      <div id="unity-footer">
+        <div id="unity-webxr-link">By <a href="https://allinreality.com" target="_blank" title="AllinReality">AllinReality</a></div>
+      </div>
+    </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Adrian.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Adrian.data.gz",
-        frameworkUrl: buildUrl + "/Adrian.framework.js.gz",
-        codeUrl: buildUrl + "/Adrian.wasm.gz",
+        dataUrl: buildUrl + "/Adrian.data",
+        frameworkUrl: buildUrl + "/Adrian.framework.js",
+        codeUrl: buildUrl + "/Adrian.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WebAR-CarController",
